@@ -21,7 +21,7 @@ class TasksRecyclerViewAdapter(
     }
 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
-        holder.bind(tasks[position], clickListener)
+        holder.bind(tasks[position], clickListener, position)
     }
 
     override fun getItemCount() = tasks.size
@@ -30,8 +30,8 @@ class TasksRecyclerViewAdapter(
 
         private val name: TextView = itemView.findViewById(R.id.task_item_text_view)
 
-        fun bind(taskItem: TaskItem, listener: OnItemClickListener) {
-            name.text = taskItem.name
+        fun bind(taskItem: TaskItem, listener: OnItemClickListener, position: Int) {
+            name.text = "Task #${position + 1}: ${taskItem.name}"
             name.setOnClickListener {
                 listener.onItemClick(taskItem)
             }

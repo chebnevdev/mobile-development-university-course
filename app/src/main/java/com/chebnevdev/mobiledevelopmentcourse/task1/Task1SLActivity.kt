@@ -10,6 +10,6 @@ class Task1SLActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.task_1_sl_activity)
 
-
+        supportActionBar?.title = intent.getStringExtra("TITLE")
     }
 }

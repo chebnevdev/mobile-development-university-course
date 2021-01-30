@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileDevelopmentCourse">
 
+        <!-- Setting up TasksMainActivity as the activity that will be shown first - it contains the list of course tasks -->
         <activity android:name=".TasksMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +18,7 @@
             </intent-filter>
         </activity>
 
+        <!-- Task#1 activity -->
         <activity
             android:name=".task1.Task1SLActivity"
             android:parentActivityName=".TasksMainActivity" />
