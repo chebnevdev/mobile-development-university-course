@@ -17,7 +17,16 @@ class TasksMainActivity : AppCompatActivity() {
 
         main_activity_tasks_recycler_view.adapter = TasksRecyclerViewAdapter(
             listOf(
-                TaskItem("StackLayout", Task1SLActivity::class.java)
+                TaskItem("StackLayout", Task1SLActivity::class.java),
+                TaskItem("Button", AppCompatActivity::class.java),
+                TaskItem("Grid", AppCompatActivity::class.java),
+                TaskItem("TabbedPage", AppCompatActivity::class.java),
+                TaskItem("CheckBox", AppCompatActivity::class.java),
+                TaskItem("RadioButton", AppCompatActivity::class.java),
+                TaskItem("ContentView", AppCompatActivity::class.java),
+                TaskItem("Images", AppCompatActivity::class.java),
+                TaskItem("DatePicker", AppCompatActivity::class.java),
+                TaskItem("Label & Expander", AppCompatActivity::class.java),
             )
         ) {
             startActivity(
