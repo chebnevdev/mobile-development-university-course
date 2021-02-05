@@ -3,8 +3,8 @@
 ## Задания
 
 * Задание 1. Работа с макетом StackLayout - **completed** [Скриншот](img/Task1StackLayout.jpg) [Разметка](app/src/main/res/layout/task_1_sl_activity.xml) [Код](app/src/main/java/com/chebnevdev/mobiledevelopmentcourse/task1/Task1SLActivity.kt)
-* Задание 2. Работа с кнопкой Button - ***in progress***
-* Задание 3. Работа с макетом Grid - *to do*
+* Задание 2. Работа с кнопкой Button - **completed** [Скриншот](img/Task2Button.jpg) [Разметка](app/src/main/res/layout/task_2_button_activity.xml) [Код](app/src/main/java/com/chebnevdev/mobiledevelopmentcourse/task2/Task2ButtonActivity.kt)
+* Задание 3. Работа с макетом Grid - ***in progress***
 * Задание 4. Работа со страницей TabbedPage - *to do*
 * Задание 5. Работа с элементами управления CheckBox - *to do*
 * Задание 6. Работа с радиокнопками - *to do*

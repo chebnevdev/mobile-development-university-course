@@ -23,6 +23,10 @@
             android:name=".task1.Task1SLActivity"
             android:parentActivityName=".TasksMainActivity" />
 
+        <!-- Task #2 activity-->
+        <activity
+            android:name=".task2.Task2ButtonActivity"
+            android:parentActivityName=".TasksMainActivity" />
     </application>
 
 </manifest>

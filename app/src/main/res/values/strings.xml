@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MobileDevelopmentCourse</string>
+    <string name="task_2_button_rotation_text">Press and hold the button below</string>
+    <string name="task_2_button_button_text">Press to rotate text</string>
 </resources>
