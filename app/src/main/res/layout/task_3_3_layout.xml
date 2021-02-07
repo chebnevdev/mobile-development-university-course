@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:background="@color/task_3_3_background_color">
+
+    <TextView
+        android:layout_height="150dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="@dimen/task_3_3_expression_text_size"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="end|bottom"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Dark"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="C" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Dark"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="+/-" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Dark"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="%" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Orange"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="DIV" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="7" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="8" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="9" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Orange"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="X" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="4" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="5" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="6" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Orange"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="-" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="1" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="2" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="3" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Orange"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="+" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:text="0" />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Light"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="." />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CalculatorButton.Orange"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="=" />
+
+</GridLayout>

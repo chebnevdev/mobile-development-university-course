@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<!--    Task #1 -->
+    <!-- Task #1 -->
     <dimen name="task_1_sl_main_margin">20dp</dimen>
     <dimen name="task_1_sl_main_header_text_size">30sp</dimen>
     <dimen name="task_1_sl_secondary_header_text_size">30sp</dimen>
     <dimen name="task_1_sl_color_name_text_size">20sp</dimen>
+
+    <!-- Task #2 -->
     <dimen name="task_2_button_text_size">22sp</dimen>
 
-    <!--    Task #2 -->
+    <!-- Task #3 -->
+    <dimen name="task_3_3_expression_text_size">60sp</dimen>
+    <dimen name="task_3_3_button_text_size">36sp</dimen>
 </resources>

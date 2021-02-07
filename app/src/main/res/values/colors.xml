@@ -207,5 +207,6 @@
     <!-- y -->
 
     <color name="YellowGreen">#9ACD32</color>
+    <color name="task_3_3_background_color">#404040</color>
 
 </resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:rowCount="3">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:background="@color/green" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:text="Row 0, Column 0" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:background="@color/blue" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:text="Row 0, Column 1" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:background="@color/teal" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:text="Row 1, Column 0" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:background="@color/purple" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:text="Row 1, Column 1" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:background="@color/red" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:text="Row 2, Column 0 and 1" />
+</GridLayout>

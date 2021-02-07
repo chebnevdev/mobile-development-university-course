@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="3">
+
+    <TextView
+        android:text="Upper left"
+        android:gravity="top|start"
+        android:background="@color/AliceBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Upper center"
+        android:gravity="top|center_horizontal"
+        android:background="@color/LightSkyBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Upper right"
+        android:gravity="top|end"
+        android:background="@color/CadetBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Center left"
+        android:gravity="center_vertical|start"
+        android:background="@color/CornflowerBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Center"
+        android:gravity="center"
+        android:background="@color/DodgerBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Center right"
+        android:gravity="center_vertical|end"
+        android:background="@color/DarkSlateBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Lower left"
+        android:gravity="bottom|start"
+        android:background="@color/SteelBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Lower center"
+        android:gravity="bottom|center_horizontal"
+        android:background="@color/LightBlue"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Lower right"
+        android:gravity="bottom|end"
+        android:background="@color/BlueViolet"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+</GridLayout>

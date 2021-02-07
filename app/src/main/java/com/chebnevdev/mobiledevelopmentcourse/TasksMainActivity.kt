@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.chebnevdev.mobiledevelopmentcourse.task1.Task1SLActivity
 import com.chebnevdev.mobiledevelopmentcourse.task2.Task2ButtonActivity
+import com.chebnevdev.mobiledevelopmentcourse.task3.Task3GridActivity
 import kotlinx.android.synthetic.main.tasks_main_activity.*
 
 class TasksMainActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class TasksMainActivity : AppCompatActivity() {
             listOf(
                 TaskItem("StackLayout", Task1SLActivity::class.java),
                 TaskItem("Button", Task2ButtonActivity::class.java),
-                TaskItem("Grid", AppCompatActivity::class.java),
+                TaskItem("Grid", Task3GridActivity::class.java),
                 TaskItem("TabbedPage", AppCompatActivity::class.java),
                 TaskItem("CheckBox", AppCompatActivity::class.java),
                 TaskItem("RadioButton", AppCompatActivity::class.java),
