@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tabbed.Stepper.StepperMainPage"
+             BackgroundColor="Cyan">
+    <StackLayout Margin="20">
+        <Label Text="Вращение текста"
+               Rotation="{Binding Source={x:Reference step}, Path=Value}"
+               FontSize="20"
+               BackgroundColor="Red"
+               TextColor="Yellow"
+               WidthRequest="200"
+               HeightRequest="50"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontAttributes="Bold" />
+        <Stepper x:Name="step"
+                 Maximum="360"
+                 Increment="30"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand" />
+        <Label Text="{Binding Source={x:Reference step}, Path=Value, StringFormat='Значение свойства Value равно {0:F0}'}"
+               FontSize="20"
+               TextColor="Black"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Label Text="Чебнев Фёдор"
+               HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
