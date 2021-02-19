@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="Tabbed.Carousel.CarouselMainPage">
+    <ContentPage BackgroundColor="Cyan"
+                 Padding="20">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Red"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <Label Text="Чебнев Фёдор"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <BoxView Color="Red"
+                         WidthRequest="200"
+                         HeightRequest="200"
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage BackgroundColor="Yellow"
+                 Padding="20">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Green"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <Label Text="Чебнев Фёдор"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <BoxView Color="Green"
+                         WidthRequest="200"
+                         HeightRequest="200"
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage BackgroundColor="Orange"
+                 Padding="20">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Blue"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <Label Text="Чебнев Фёдор"
+                       TextColor="Black"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <BoxView Color="Blue"
+                         WidthRequest="200"
+                         HeightRequest="200"
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+</CarouselPage>
