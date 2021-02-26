@@ -12,10 +12,10 @@
 * Задание 5. Работа с элементами управления CheckBox - **completed** [Скриншот](img/Task5CheckBox.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/CheckBox)
 * Задание 6.1. Работа с радиокнопками - **completed** [Скриншот](img/Task6Page1.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/RadioButton)
 * Задание 6.2. Работа с элементом управления Stepper - **completed** [Скриншот](img/Task6Page2.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/Stepper)
-* Задание 7. Использование макета ContentView - *to do*
-* Задание 8. Работа с изображениями - *to do*
-* Задание 9. Работа с элементом управления DatePicker - *to do*
-* Задание 10. Работа с элементами управления Label и Expander - *to do*
+* Задание 7. Использование макета ContentView - **completed** [Скриншот](img/Task7ContentView.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/ControllerView)
+* Задание 8. Работа с изображениями - **completed** [Скриншот-1](img/Task8Page1.jpg) [Скриншот-2](img/Task8Page2.jpg) [Скриншот-3](img/Task8Page3.jpg) [Скриншот-4](img/Task8Page4.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/ImagesDemo)
+* Задание 9. Работа с элементом управления DatePicker - **completed** [Скриншот](img/Task9DatePicker.jpg) [Код и разметка](Tabbed/Tabbed/Tabbed/DatePicker)
+* Задание 10. Работа с элементами управления Label и Expander - **completed** [Скриншот-1](img/Task10Label.jpg) [Код и разметка-1](Tabbed/Tabbed/Tabbed/LabelNS) [Скриншот-2](img/Task10Expander.jpg) [Код и разметка-2](Tabbed/Tabbed/Tabbed/Expander)
 
 ## Навигация
 
