@@ -1,0 +1,51 @@
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Name="this"
+             x:Class="Tabbed.ControllerView.Card">
+    <Frame BindingContext="{x:Reference this}"
+           BackgroundColor="{Binding CardColor, FallbackValue='Yellow'}"
+           BorderColor="{Binding CBColor, FallbackValue='Black'}"
+           CornerRadius="10"
+           HasShadow="True"
+           Padding="10"
+           VerticalOptions="Center"
+           HorizontalOptions="Center">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="200" />
+            </Grid.ColumnDefinitions>
+            <Frame IsClippedToBounds="True"
+                   BorderColor="{Binding CBColor, FallbackValue='Black'}"
+                   HeightRequest="70"
+                   WidthRequest="70"
+                   HasShadow="False"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                <BoxView BackgroundColor="{Binding TarColor, FallbackValue='Black' }"
+                         Margin="-10"
+                         WidthRequest="50"
+                         HeightRequest="50" />
+            </Frame>
+            <BoxView Grid.Column="1"
+                     BackgroundColor="{Binding CBColor, FallbackValue='Black'}"
+                     WidthRequest="10"
+                     VerticalOptions="Fill" />
+            <Label Grid.Column="2"
+                   Text="{Binding CardTitle, FallbackValue='Card Title'}"
+                   TextColor="{Binding ColText, FallbackValue='Red'}"
+                   FontAttributes="Bold"
+                   FontSize="24"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center" />
+
+        </Grid>
+    </Frame>
+</ContentView>

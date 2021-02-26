@@ -1,0 +1,21 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tabbed.ImagesDemo.LocalImages"
+             BackgroundColor="YellowGreen">
+    <ContentPage.Content>
+        <StackLayout Margin="10,150,10,10">
+            <Label Text="Изображение из локального файла"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   FontSize="50"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center" />
+
+            <Image HeightRequest="200"
+                   WidthRequest="350"
+                   HorizontalOptions="Center"
+                   Source="onepunchman.jpg"
+                   Aspect="Fill" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

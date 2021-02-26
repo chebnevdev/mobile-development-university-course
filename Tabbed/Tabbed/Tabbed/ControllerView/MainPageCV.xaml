@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:Tabbed.ControllerView"
+             mc:Ignorable="d"
+             x:Class="Tabbed.ControllerView.MainPageCV"
+             Padding="10, 50"
+             BackgroundColor="Azure">
+    <StackLayout>
+        <Label Margin="20"
+               Text="Content View Demo"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+        <controls:Card CardTitle="Red"
+                       CBColor="Black"
+                       TarColor="Red"
+                       CardColor="Orange"
+                       ColText="Black" />
+        <controls:Card CardTitle="Green"
+                       CBColor="Red"
+                       TarColor="Green"
+                       CardColor="Bisque"
+                       ColText="Black" />
+        <controls:Card CardTitle="Yellow"
+                       CBColor="Violet"
+                       TarColor="Yellow"
+                       CardColor="Aqua"
+                       ColText="Black" />
+
+        <Label Text="Chebnev Fyodor"
+               TextColor="Black"
+               FontSize="13"
+               VerticalOptions="EndAndExpand"
+               VerticalTextAlignment="End"
+               HorizontalOptions="Center" />
+
+    </StackLayout>
+</ContentPage>
